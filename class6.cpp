@@ -36,7 +36,6 @@ class reports
             {
                     
                 cout<<"the marks of subject"<<j+1<<" : "<<marks[j]<<endl;
-
             }
             cout<<"average:"<<GETAVG(avg)<<endl;
 
