@@ -64,7 +64,7 @@ int main()
         volumes vol;
     if (n==1) 
     { 
-        cout<<"Enter length of cube";
+        cout<<"Enter length of cube:";
         cin>>a; 
         vol.volume(a);
 
@@ -72,9 +72,9 @@ int main()
     else if (n==2)
     {
         
-        cout<<"Enter radius of cone";
+        cout<<"Enter radius of cone:";
         cin>>r; 
-        cout<<"Enter the hight cone";
+        cout<<"Enter the hight cone:";
         cin>>h; 
         vol.volume(r,h);
 
@@ -82,11 +82,11 @@ int main()
     else if (n==3)
     {
 
-        cout<<"Enter the length of cuboid";
+        cout<<"Enter the length of cuboid:";
         cin>>l; 
-        cout<<"Enter the height of cuboid";
+        cout<<"Enter the height of cuboid:";
         cin>>H; 
-        cout<<"Enter the base of cuboid";
+        cout<<"Enter the base of cuboid:";
         cin>>b; 
         vol.volume(l,H,b);
 
@@ -94,14 +94,14 @@ int main()
     }
     else if (n==4)
     {
-        cout<<"Enter radius of sphere";
+        cout<<"Enter radius of sphere:";
         cin>>R; 
         vol.volume(R);
     }
     else
     {
         cout<<"***************************************************************************************"<<endl;
-        cout<<"please Re-enter the number"<<endl;
+        cout<<"please Re-enter the number!!"<<endl;
         goto start;
 
     }
