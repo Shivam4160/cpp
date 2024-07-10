@@ -44,6 +44,12 @@ class volume
     
     
         } 
+        ~volume()
+        {
+
+            cout<<"distructor has been called"<<endl;
+
+        }
 
     
 }; 
