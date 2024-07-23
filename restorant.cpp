@@ -1,14 +1,5 @@
-/*
-  restaurant -> name
-  show menu
-  items
-  customer -> name
-  customer -> number
-  discount up 5000 bills 10%
-  bill gst :: sgst 2.5%,cgst :: 2.5%
-*/
 #include<iostream>
-#include<string.h>
+// #include<string.h>
 using namespace std;
 class Restaurant
 {
@@ -17,7 +8,7 @@ class Restaurant
    public:
    void get_info()
      {
-          cout<<"\n\t\t **********___AXAR RESTRURENT___**********\n";
+          cout<<"\n\t\t **********___JADUI RESTRURENT___**********\n";
           cout<<"Enter your Name : ";
           cin>>name;
           cout<<"Enter your Contact Number : ";
@@ -64,7 +55,7 @@ class Show_bill : public Restaurant
       int item5()
       {
          cout<<"\n \tEnter  : "; cin>>quty;
-          items[4] = "AXAR SPECIAL";
+          items[4] = "TODAY'S SPECIAL";
          return Bill = Bill + quty*800;
       }
       double Show_Bill_Amt()
@@ -117,10 +108,9 @@ int main ()
         cout<<" \n \t\t\t [2] GRREN GOTALO : RS. 550 /- "; 
         cout<<" \n \t\t\t [3] MALASA DHOSA : RS. 400 /- "; 
         cout<<" \n \t\t\t [4] BOMBAY BHEL  : RS. 500 /- "; 
-        cout<<" \n \t\t\t [5] AXAR SPECIAL : RS. 800 /- \n";
+        cout<<" \n \t\t\t [5] TODAY'S SPECIAL : RS. 800 /- \n";
         cout<<" \n \t\t\t [6] CANCEL ORDER  ";
         cout<<" \n \t\t\t  Confirm Your Order    [0]  \n";
-        cout<<" \n \t\t\t -> NOTIS<- _____ don't be shy ask forgiveness _____";
 
         int i;
         do
@@ -147,7 +137,7 @@ int main ()
             break;
         case 5: 
             J.item5();
-                 cout<<"\n \t\t\t [5]AXAR SPECIAL  : RS.800 \n";
+                 cout<<"\n \t\t\t [5]TODAY'S SPECIAL  : RS.800 \n";
             break;
             case 0: 
             break;
